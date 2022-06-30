@@ -1,0 +1,16 @@
+// WiFi
+#define SECRET_SSID "myssid"
+#define SECRET_PASS "xxxxxx"
+
+// MQTT
+#define MQTT_SERVER "xxx.xxx.xxx.xxx"
+#define MQTT_PORT 1883
+#define MQTT_CLIENT_ID "ledStrip"
+#define MQTT_OUT_TOPIC "ledStrip/status"
+#define MQTT_IN_TOPIC "ledStrip/color"
+#define MQTT_USER "username"
+#define MQTT_PASS "password"
+
+// FastLED
+#define NUM_LEDS 5
+#define DATA_PIN 18
